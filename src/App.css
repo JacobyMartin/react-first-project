@@ -188,15 +188,16 @@
   width: 120px; 
   border-radius: 5px; 
   padding: 10px; 
-  margin: 0 10px; 
+  margin: 10px; 
 
 }
 .DiamondContainer{
-  display: flexbox; 
+  display: flex; 
   border: 2px #669cff solid; 
   padding: 10px; 
   margin: 10px; 
   border-radius: 10px; 
+  justify-content: space-around;
 }
 
 @media (max-width: 450px){
